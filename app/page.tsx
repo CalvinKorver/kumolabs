@@ -49,7 +49,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <div className="flex flex-row w-full invisible lg:visible">
+      <div className="flex flex-row w-full hidden lg:block">
         <div className="basis-1/2"></div>
         <div className="basis-1/2 flex justify-center lg:justify-end">
           <Image
@@ -61,10 +61,10 @@ export default function Home() {
             priority={true}
           />
         </div>
-        <div className="absolute bottom-[100px] right-[-85px] lg:bottom-0 lg:right-0 lg:translate-x-1/2 lg:translate-y-1/ lg:invisible visible">
+        <div className="absolute bottom-[100px] right-[-85px] lg:bottom-0 lg:right-0 lg:translate-x-1/2 lg:translate-y-1/ lg:hidden block">
           <Image src="/cloud_export.png" alt="Cloud" width={450} height={200} />
         </div>
-      </div> */}
+      </div>
       <div className="fixed bottom-0 left-0 p-6">
         <a href="https://www.calvinkorver.com">
           <p className="text-xs">© Calvin</p>
