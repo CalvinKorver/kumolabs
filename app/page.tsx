@@ -11,10 +11,9 @@ export default function Home() {
         <div className="lg:basis-1/2 basis-1/1 mt-16 lg:mt-0">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-6xl text-white font-semibold sm:text-7xl">
-              <span className="hidden lg:block">Kumo Labs</span>
-              <span className="block lg:hidden">
-                Kumo
-                <br />
+              Kumo <span className="invisible lg:visible">Labs</span>
+              <br className="visible lg:invisible" />
+              <span className="visible lg:invisible">
                 Labs
               </span>
             </h2>
