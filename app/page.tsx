@@ -12,13 +12,11 @@ export default function Home() {
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-6xl text-white font-semibold sm:text-7xl">
               Kumo <span className="invisible lg:visible">Labs</span>
-            </h2>
-
-            <div>
-              <h2 className="visible lg:invisible text-6xl font-medium tracking-tight text-white pt-2">
+              <br className="visible lg:invisible" />
+              <span className="visible lg:invisible">
                 Labs
-              </h2>
-            </div>
+              </span>
+            </h2>
             <p className="mt-8 text-base leading-6 text-gray-300 max-w-full">
               Showcasing innovative ideas & machine learning applications that{" "}
               <br></br>
