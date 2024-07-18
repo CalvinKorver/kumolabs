@@ -61,6 +61,7 @@ export default function Home() {
             width={700}
             height={300}
             className="lg:mr-0"
+            priority={true}
           />
         </div>
         <div className="absolute bottom-[100px] right-[-85px] lg:bottom-0 lg:right-0 lg:translate-x-1/2 lg:translate-y-1/ lg:invisible visible">
