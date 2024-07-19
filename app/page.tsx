@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen p-12 lg:p-24 bg-zinc-700 text-white flex-col">
+    <main className="flex min-h-screen p-12 lg:p-24 bg-zinc-700 text-white flex-col ">
       <div className="flex flex-row w-full">
         {/* First row content (if any) */}
       </div>
@@ -62,7 +62,8 @@ export default function Home() {
           />
         </div>
         </div>
-        <div className="absolute bottom-[25px] right-[-65px] lg:bottom-0 lg:right-0 lg:translate-x-1/2 lg:translate-y-1/ lg:hidden flex">
+        <div className="flex flex-row h-[25vh] lg:hidden"></div>
+        <div className="relative bottom-[25px] right-[-65px] lg:bottom-0 lg:right-0 lg:translate-x-1/2 lg:translate-y-1/ block lg:hidden">
           <Image src="/cloud_export.png" alt="Cloud" width={350} height={200} />
         </div>
       <div className="fixed bottom-0 left-0 p-6">
