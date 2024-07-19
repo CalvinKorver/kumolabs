@@ -62,7 +62,7 @@ export default function Home() {
           />
         </div>
         </div>
-        <div className="flex flex-row h-[25vh] lg:hidden"></div>
+        <div className="flex flex-row h-[15vh] lg:hidden"></div>
         <div className="relative bottom-[25px] right-[-65px] lg:bottom-0 lg:right-0 lg:translate-x-1/2 lg:translate-y-1/ block lg:hidden">
           <Image src="/cloud_export.png" alt="Cloud" width={350} height={200} />
         </div>
